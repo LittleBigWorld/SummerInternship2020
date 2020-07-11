@@ -51,7 +51,7 @@ class Calculator
 
   def clear
     @result=0
-    @memory=0
+    @memory=0 #?
   end
 
 end

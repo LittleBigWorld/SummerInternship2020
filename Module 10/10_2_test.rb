@@ -126,7 +126,7 @@ class CalculatorTest < Test::Unit::TestCase
   def test_clear_method
     @icalc.add_to_memory
     @icalc.clear
-    actual = @icalc.result
+    actual = @icalc.result #@icalc.memory?
     expected = 0
     assert(actual === expected, "Пам’ять калькулятора не очищується")
   end
